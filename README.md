@@ -30,6 +30,20 @@ python create_tables.py
 
 ## Testing
 
+### Manual Testing
+
+While running the app
+
+To query all Programs:
+
+```
+curl http://127.0.0.1:5000/programs
+```
+
+or perform a GET in [Postman](https://www.postman.com/) to test the API routes
+
+### Run Unit Tests
+
 While your virtual env is running, run this command to run tests:
 
 ```
